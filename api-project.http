@@ -1,0 +1,16 @@
+### GET request to example server
+GET localhost:8080/todo
+
+### GET items that match a query
+GET localhost:8080/todo?q=dick
+
+### POST to add a todo
+POST localhost:8080/todo
+
+{
+  "task": "give money to poor",
+  "status": false
+}
+
+### DELETE to delete a todo based on its ID
+DELETE localhost:8080/todo/1
