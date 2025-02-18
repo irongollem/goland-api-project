@@ -1,9 +1,9 @@
 package db
 
 import (
-	"api-project/internal/model"
 	"context"
 	"fmt"
+	"github.com/irongollem/goland-api-project/internal/model"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 

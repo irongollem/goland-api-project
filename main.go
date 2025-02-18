@@ -1,13 +1,14 @@
 package main
 
 import (
-	"api-project/internal/db"
-	"api-project/internal/todo"
-	"api-project/internal/transport"
+	"github.com/irongollem/goland-api-project/internal/db"
+	"github.com/irongollem/goland-api-project/internal/todo"
+	"github.com/irongollem/goland-api-project/internal/transport"
 	"log"
 )
 
 func main() {
+	// fixme: Replace with credentials from ENV
 	d, err := db.NewDB("postgres", "example", "postgres", "localhost", 5432)
 	if err != nil {
 		log.Fatal(err)

@@ -1,10 +1,10 @@
 package todo_test
 
 import (
-	"api-project/internal/model"
-	"api-project/internal/todo"
 	"context"
 	"errors"
+	"github.com/irongollem/goland-api-project/internal/model"
+	"github.com/irongollem/goland-api-project/internal/todo"
 	"reflect"
 	"testing"
 )

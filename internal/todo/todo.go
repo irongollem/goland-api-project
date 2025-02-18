@@ -1,10 +1,10 @@
 package todo
 
 import (
-	"api-project/internal/model"
 	"context"
 	"errors"
 	"fmt"
+	"github.com/irongollem/goland-api-project/internal/model"
 	"strings"
 )
 

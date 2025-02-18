@@ -1,9 +1,9 @@
 package transport
 
 import (
-	"api-project/internal/model"
-	"api-project/internal/todo"
 	"encoding/json"
+	"github.com/irongollem/goland-api-project/internal/model"
+	"github.com/irongollem/goland-api-project/internal/todo"
 	"log"
 	"net/http"
 	"strconv"

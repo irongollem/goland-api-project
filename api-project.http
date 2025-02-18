@@ -8,7 +8,7 @@ GET localhost:8080/todo?q=dick
 POST localhost:8080/todo
 
 {
-  "task": "give money to poor",
+  "task": "do something",
   "status": false
 }
 
